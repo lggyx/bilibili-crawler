@@ -26,3 +26,6 @@ def get_video_ranking_tag(ps,pn,rid,tag_id):
     :param tag_id:num	目标标签id	必要
     :return:
     """
+    url="https://api.bilibili.com/x/web-interface/dynamic/tag"
+    params={"pn":pn,"ps":ps,"rid":rid,"tag_id":tag_id}
+    return request_mine(url, params)

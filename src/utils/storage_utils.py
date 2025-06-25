@@ -4,7 +4,7 @@ TODO 存储数据的方法
 import json
 import os.path
 
-path=os.path.dirname(__file__).split("\\utils")[0]+"\\data\\raw\\"
+path=os.path.dirname(__file__).split("\\src")[0]+"\\data\\raw\\"
 def write_file_to_raw(filename,data):
     """
     将爬取的原始数据写入本地

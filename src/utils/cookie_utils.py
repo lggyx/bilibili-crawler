@@ -9,7 +9,7 @@ from requests.cookies import RequestsCookieJar
 from selenium import webdriver
 import json
 
-filepath=os.path.dirname(__file__).split("\\utils")[0]+"\\data\\cookies\\cookies.json"
+filepath=os.path.dirname(__file__).split("\\src")[0]+"\\data\\cookies\\cookies.json"
 def write_cookies():
     """
     登录，写入cookies
