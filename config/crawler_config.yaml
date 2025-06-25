@@ -1,0 +1,40 @@
+# 爬虫配置文件
+
+# 目标网站配置
+target_sites:
+  - name: "示例网站1"
+    url: "https://example1.com"
+    rate_limit: 1  # 每秒请求数
+    headers:
+      User-Agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+  
+  - name: "示例网站2"
+    url: "https://example2.com"
+    rate_limit: 0.5  # 每2秒一个请求
+    headers:
+      User-Agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+
+# 爬虫行为配置
+crawler:
+  max_retries: 3  # 最大重试次数
+  timeout: 30     # 请求超时时间(秒)
+  delay: 2        # 请求间隔时间(秒)
+  max_depth: 3    # 最大爬取深度
+  max_pages: 100  # 最大爬取页面数
+
+# 数据存储配置
+storage:
+  format: "json"  # 存储格式: json, csv, etc.
+  path: "../data/raw/"  # 存储路径
+
+# 代理配置
+proxies:
+  use_proxy: false
+  proxy_list:
+    - http: "http://127.0.0.1:8080"
+    - http: "http://127.0.0.1:8081"
+
+# 日志配置
+logging:
+  level: "INFO"  # DEBUG, INFO, WARNING, ERROR, CRITICAL
+  file: "../logs/crawler.log"

@@ -1,0 +1,51 @@
+# 数据库配置文件
+
+# SQLite配置
+sqlite:
+  enabled: true
+  db_path: "../data/storage/project_data.db"
+
+# MySQL配置
+mysql:
+  enabled: false
+  host: "localhost"
+  port: 3306
+  user: "root"
+  password: "password"
+  database: "project_db"
+  charset: "utf8mb4"
+  connection_pool:
+    max_connections: 10
+    timeout: 30
+
+# MongoDB配置
+mongodb:
+  enabled: false
+  host: "localhost"
+  port: 27017
+  database: "project_db"
+  username: ""
+  password: ""
+  auth_source: "admin"
+  connection_options:
+    max_pool_size: 50
+    connect_timeout_ms: 5000
+    socket_timeout_ms: 10000
+
+# Redis配置 (用于缓存)
+redis:
+  enabled: false
+  host: "localhost"
+  port: 6379
+  db: 0
+  password: ""
+  timeout: 5
+  connection_pool:
+    max_connections: 10
+
+# 数据备份配置
+backup:
+  enabled: true
+  schedule: "daily"  # daily, weekly, monthly
+  retention_days: 7
+  path: "../data/backup/"

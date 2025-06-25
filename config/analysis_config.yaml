@@ -1,0 +1,94 @@
+# 数据分析配置文件
+
+# 数据预处理配置
+preprocessing:
+  # 文本处理
+  text:
+    remove_stopwords: true
+    language: "chinese"
+    min_word_length: 2
+    max_word_length: 20
+    remove_punctuation: true
+    remove_numbers: false
+    
+  # 数值处理
+  numeric:
+    handle_missing: "mean"  # mean, median, mode, or remove
+    scaling: "standard"     # standard, minmax, robust, or none
+    outlier_detection:
+      method: "iqr"        # iqr, zscore, isolation_forest
+      threshold: 1.5       # for IQR method
+
+# 分析配置
+analysis:
+  # 统计分析
+  statistics:
+    basic_stats: true      # 均值、中位数、标准差等
+    correlation: true      # 相关性分析
+    hypothesis_testing: false
+    
+  # 文本分析
+  text_analysis:
+    word_frequency: true
+    sentiment_analysis: true
+    topic_modeling:
+      enabled: true
+      num_topics: 5
+      algorithm: "lda"     # lda, nmf
+      
+  # 时间序列分析
+  time_series:
+    enabled: false
+    seasonality_check: true
+    trend_analysis: true
+    forecasting:
+      method: "arima"      # arima, prophet, lstm
+      forecast_periods: 30
+
+# 可视化配置
+visualization:
+  # 图表样式
+  style:
+    theme: "seaborn"       # seaborn, matplotlib, plotly
+    color_palette: "Set3"
+    figure_size: [10, 6]
+    dpi: 100
+    
+  # 图表类型配置
+  plots:
+    line_plot:
+      grid: true
+      marker: "o"
+      line_style: "-"
+      
+    bar_plot:
+      orientation: "vertical"
+      bar_width: 0.8
+      
+    scatter_plot:
+      alpha: 0.6
+      marker_size: 50
+      
+    heatmap:
+      color_map: "YlOrRd"
+      annotate: true
+
+# 输出配置
+output:
+  # 结果保存
+  save_path: "../data/output/"
+  formats:
+    - "png"
+    - "pdf"
+    - "html"
+  
+  # 报告生成
+  report:
+    enabled: true
+    template: "default"
+    sections:
+      - "summary"
+      - "methodology"
+      - "findings"
+      - "visualizations"
+      - "conclusions"
