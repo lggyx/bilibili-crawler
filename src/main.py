@@ -1,4 +1,4 @@
-from utils.cookie_utils import get_cookies
+from src.utils.cookie_utils import get_cookies
 
 
 def get_video_info(video_id):

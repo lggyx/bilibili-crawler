@@ -1,6 +1,6 @@
 import requests
 
-from utils.cookie_utils import get_cookies
+from src.utils.cookie_utils import get_cookies
 
 
 def request_mine(url,params):
