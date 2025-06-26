@@ -6,17 +6,15 @@ TODO 主程序，可以执行的操作如下：
     4.爬取单一视频数据弹幕等，数据清洗，分析生成对应的数据展示
 """
 import argparse
-import json
-import os
-import re
 import time
 
+import crawler.audio.rank_crawler
+from analyzer.audio.run_audio_analysis import run_audio_analysis
+from cleaner.audio.rank_cleaner import rank_cleaner
 from config.logger import get_logger
-from crawler.audio.rank_crawler import get_audio_rank_all_period, get_audio_rank_music_list
-from utils.storage_utils import write_file_to_raw
 from utils.cookie_utils import write_cookies
 
-log=get_logger()
+log=get_logger("bilibili-crawler")
 
 
 def login():
@@ -26,33 +24,14 @@ def music_rank():
     # 爬取往期所有音乐排行榜单数据，数据清洗，分析生成云图，数据表等，生成热点话题走向
     log.info("开始爬取数据")
     # 爬取数据、存储原始数据
-    write_file_to_raw("音乐榜单-热榜-", get_audio_rank_all_period(1, None))
-    time.sleep(3)
-    raw_data_dir = os.path.dirname(__file__)+"\\data\\raw"  # 假设原始数据存放在raw目录下
-    pattern = re.compile(r"^音乐榜单-热榜-.*\.json$")
-    matched_files = [f for f in os.listdir(raw_data_dir) if pattern.match(f)]
-    log.info(f"匹配到的文件: {matched_files}")
-    if not matched_files:
-        log.error("未找到匹配的原始数据文件")
-        return
-    latest_file = max(matched_files, key=lambda f: os.path.getmtime(os.path.join(raw_data_dir, f)))
-    file_path = os.path.join(raw_data_dir, latest_file)
-    with open(file_path,'r',encoding='utf-8') as f:
-        data_json = json.load(f)
-        log.info(f"最新的原始数据文件: {latest_file}")
-        for key,value in data_json['data']['list'].items():
-            log.info(f"年度:{key}")
-            for item in value:
-                write_file_to_raw(f"音频榜单单期信息-热榜-第{item["priod"]}期-", get_audio_rank_music_list(item["ID"], None))
+    crawler.audio.rank_crawler.rank_crawler()
     log.info("爬取数据完成")
-
     log.info("开始数据清洗")
-    # 原始数据清洗整理，变成可以使用的数据
-    time.sleep(2)
+    rank_cleaner()
     log.info("数据清洗完成")
-
     log.info("生成数据分析报告中")
     # 生成分析报告，文档等，生成完成跳转对应的文件夹
+    run_audio_analysis()
     log.info("数据分析报告已生成")
 
 

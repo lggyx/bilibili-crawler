@@ -22,5 +22,5 @@ logging.basicConfig(
     handlers=[rich_handler, file_handler]
 )
 
-def get_logger():
-    return logging.getLogger("bilibili-crawler")
+def get_logger(name):
+    return logging.getLogger(name)

@@ -1,8 +1,15 @@
 """
 TODO 音乐榜单爬虫
 """
-from utils.request_utils import request_mine
+import json
+import os
+import re
+import time
 
+from config.logger import get_logger
+from utils.request_utils import request_mine
+from utils.storage_utils import write_file_to_raw
+log=get_logger("bilibili-crawler")
 
 # TODO 音乐榜单
 def get_audio_rank_all_period(list_type, csrf):
@@ -41,3 +48,23 @@ def get_audio_rank_music_list(list_id, csrf):
     return request_mine(url, params)
 
 
+def rank_crawler():
+    write_file_to_raw("音乐榜单-热榜-", get_audio_rank_all_period(1, None))
+    time.sleep(3)
+    raw_data_dir = os.path.dirname(__file__).split("\\crawler")[0] + "\\data\\raw"  # 假设原始数据存放在raw目录下
+    pattern = re.compile(r"^音乐榜单-热榜-.*\.json$")
+    matched_files = [f for f in os.listdir(raw_data_dir) if pattern.match(f)]
+    log.info(f"匹配到的文件: {matched_files}")
+    if not matched_files:
+        log.error("未找到匹配的原始数据文件")
+        return
+    latest_file = max(matched_files, key=lambda f: os.path.getmtime(os.path.join(raw_data_dir, f)))
+    file_path = os.path.join(raw_data_dir, latest_file)
+    with open(file_path, 'r', encoding='utf-8') as f:
+        data_json = json.load(f)
+        log.info(f"最新的原始数据文件: {latest_file}")
+        for key, value in data_json['data']['list'].items():
+            log.info(f"年度:{key}")
+            for item in value:
+                write_file_to_raw(f"音频榜单单期信息-热榜-第{item["priod"]}期-{key}年度-",
+                                  get_audio_rank_music_list(item["ID"], None))
