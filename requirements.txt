@@ -1,22 +1,8 @@
-# 数据处理
-pandas>=1.3.0
-numpy>=1.20.0
-
-# 数据可视化
-matplotlib>=3.4.0
-seaborn>=0.11.0
-
-# 命令行参数解析
-argparse>=1.4.0
-
-# 警告控制
-warnings>=0.1.0
-
-# 日期时间处理
-python-dateutil>=2.8.2
-
-# 文件系统操作
-pathlib>=1.0.1
-
-# JSON处理
-json5>=0.9.6
+pandas
+numpy
+requests
+webdriver-manager
+selenium
+rich
+matplotlib
+seaborn
