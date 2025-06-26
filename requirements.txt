@@ -6,3 +6,4 @@ selenium
 rich
 matplotlib
 seaborn
+jupyter
