@@ -163,8 +163,7 @@ python main.py --mode music_rank
 ```
 
 参数说明：
-- `--data_dir`：处理后的数据目录路径（默认：./data/processed）
-- `--output_dir`：分析报告输出目录路径（默认：./data/reports）
+- `--mode`:模式类型，此处指定music_ran
 
 ## 数据格式说明
 
