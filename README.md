@@ -58,6 +58,10 @@ bilibili-crawler/
 
 ## 环境要求
 
+- chromedriver
+  - [Chrome for Testing availability](https://googlechromelabs.github.io/chrome-for-testing/#beta)
+  - 打开网址下载对应Chrome和ChromeDriver，添加到系统环境变量PATH里面
+
 - Python >= 3.7
 - 依赖包：
   - pandas >= 1.3.0
@@ -97,7 +101,7 @@ pip install -r requirements.txt
 ```bash
 python main.py --help
 ```
-
+> 运行前确存在cookie，如果不存在可以运行`python main.py --mode login`进行登录
 ## API说明
 
 ### 音频榜单API
