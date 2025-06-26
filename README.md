@@ -163,7 +163,7 @@ python main.py --mode music_rank
 ```
 
 参数说明：
-- `--mode`:模式类型，此处指定music_ran
+- `--mode`:模式类型，此处指定music_rank
 
 ## 数据格式说明
 
