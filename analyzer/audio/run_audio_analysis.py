@@ -123,6 +123,9 @@ def run_audio_analysis():
     # 定义数据及报告路径
     data_dir = os.path.dirname(__file__).split("\\analyzer")[0]+ '\\data\\processed'
     output_dir = os.path.dirname(__file__).split("\\analyzer")[0]+ '\\data\\reports'
+
+    os.makedirs(output_dir, exist_ok=True)
+    os.makedirs(data_dir, exist_ok=True)
     # 创建分析器
     analyzer = AudioRankAnalyzer(data_dir, output_dir)
     
