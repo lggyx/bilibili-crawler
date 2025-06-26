@@ -6,7 +6,11 @@ from datetime import datetime
 
 LOG_FORMAT = "%(asctime)s | %(levelname)s | %(name)s | %(message)s"
 DATE_FORMAT = "%Y-%m-%d %H:%M:%S"
-path=os.path.dirname(__file__).split("\\config")[0]+"\\data\\logs\\"
+path = os.path.dirname(__file__).split("\\config")[0] + "\\data\\logs\\"
+
+# 新增：确保日志目录存在
+os.makedirs(path, exist_ok=True)
+
 LOG_FILE = path + f"bilibili-crawler-{datetime.now().strftime('%Y-%m-%d_%H')}.log"  # 日志文件按小时保存
 
 # 创建文件处理器
