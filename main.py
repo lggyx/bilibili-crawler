@@ -24,7 +24,7 @@ def music_rank():
     # 爬取往期所有音乐排行榜单数据，数据清洗，分析生成云图，数据表等，生成热点话题走向
     log.info("开始爬取数据")
     # 爬取数据、存储原始数据
-    crawler.audio.rank_crawler.rank_crawler()
+    # crawler.audio.rank_crawler.rank_crawler()
     log.info("爬取数据完成")
     log.info("开始数据清洗")
     rank_cleaner()

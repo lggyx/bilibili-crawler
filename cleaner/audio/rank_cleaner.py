@@ -13,6 +13,8 @@ fields_to_keep = [
 # 数据清洗函数
 def clean_data(data):
     cleaned_data = {"data": {"list": []}}
+    if not data or "data" not in data or "list" not in data["data"] or not isinstance(data["data"]["list"], list):
+        return cleaned_data
     for item in data["data"]["list"]:
         cleaned_item = {field: item[field] for field in fields_to_keep if field in item}
         cleaned_data["data"]["list"].append(cleaned_item)
@@ -36,6 +38,8 @@ def rank_cleaner():
                 # 清洗数据
                 cleaned_data = clean_data(data)
                 # 保存清洗后的数据
+                if cleaned_data=={"data": {"list": []}}:
+                    continue
                 write_file_to_processed(filename,cleaned_data)
 
 
