@@ -3,14 +3,7 @@
 
 """
 B站音频榜单数据分析运行脚本
-
 此脚本用于运行音频榜单数据分析，生成可视化报告。
-
-使用方法:
-    python run_audio_analysis.py --data_dir <数据目录路径> --output_dir <输出目录路径>
-
-示例:
-    python run_audio_analysis.py --data_dir ./data/processed --output_dir ./data/reports
 """
 
 import os

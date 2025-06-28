@@ -58,10 +58,9 @@ bilibili-crawler/
 
 ## 环境要求
 
-- chromedriver
-  - [Chrome for Testing availability](https://googlechromelabs.github.io/chrome-for-testing/#beta)
-  - 打开网址下载对应Chrome和ChromeDriver，添加到系统环境变量PATH里面
-
+- edgedriver
+  - 直接去百度就有
+  - 记得安装和浏览器一个版本的
 - Python >= 3.7
 - 依赖包：
   - pandas >= 1.3.0
