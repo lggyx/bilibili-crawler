@@ -9,7 +9,6 @@ import argparse
 import time
 
 import crawler.audio.rank_crawler
-from analyzer.audio.run_audio_analysis import run_audio_analysis
 from cleaner.audio.rank_cleaner import rank_cleaner
 from config.logger import get_logger
 from utils.cookie_utils import write_cookies
@@ -31,7 +30,7 @@ def music_rank():
     log.info("数据清洗完成")
     log.info("生成数据分析报告中")
     # 生成分析报告，文档等，生成完成跳转对应的文件夹
-    run_audio_analysis()
+    # run_audio_analysis()
     log.info("数据分析报告已生成")
 
 
