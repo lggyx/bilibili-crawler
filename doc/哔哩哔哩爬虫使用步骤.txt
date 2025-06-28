@@ -1,0 +1,31 @@
+======基础环境
+1.电脑确保安装git
+2.电脑确保安装python或者anaconda也行（PS：anaconda太大了，装一次好几个G下载老慢了）
+3.电脑确保安装浏览器驱动
+	谷歌驱动和Edge的驱动都行，但是谷歌的下载需要用梯子比较麻烦，版本管理也比较混乱
+	这里用Edge
+	驱动下载后可以放到Python虚拟环境Script目录下，也可以单独放一个目录添加到环境变量
+4.确保有个合适的IDE工具，Pycharm或者Vscode都行
+
+======克隆项目
+1.打开命令行cmd
+2.输入命令`git clone git@gitee.com:QSX9546726/bilibili-crawler.git`
+
+======项目依赖安装
+一、第一种安装方法
+1.进入工作目录`cd .\bilibili-crawler\`
+2.安装Python依赖`pip install -r requirements.txt`
+	备注：如果安装速度过慢，可以尝试配置Python国内镜像源
+	pip install -i https://pypi.tuna.tsinghua.edu.cn/simple -r requirements.txt
+	配置镜像源参考：https://www.cnblogs.com/chenjo/p/14071864.html
+二、第二种安装方法
+1.将项目用pycharm打开
+2.根据提示框确认就好了
+
+======项目运行
+1.获取登录Cookie
+py main.py --mode login
+2.分析音频榜单数据（爬虫-->清洗-->分析）
+py main.py --mode music_rank
+3.jupyter报告生成
+运行notebooks文件夹中的audio_rank_analysis.ipynb

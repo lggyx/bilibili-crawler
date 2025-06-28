@@ -18,7 +18,7 @@ def write_cookies():
     登录，写入cookies
     :return:
     """
-    driver = webdriver.Chrome()
+    driver = webdriver.Edge()
     driver.maximize_window()
     driver.get('https://www.bilibili.com/')
     driver.implicitly_wait(10)
