@@ -23,9 +23,5 @@
 2.根据提示框确认就好了
 
 ======项目运行
-1.获取登录Cookie
-py main.py --mode login
-2.分析音频榜单数据（爬虫-->清洗-->分析）
-py main.py --mode music_rank
-3.jupyter报告生成
-运行notebooks文件夹中的audio_rank_analysis.ipynb
+可单个，也可以多个顺序运行
+python main.py --login --crawl --preprocess --analyze
