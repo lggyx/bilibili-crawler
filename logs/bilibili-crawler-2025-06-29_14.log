@@ -1,0 +1,385 @@
+2025-06-29 14:22:25 | INFO | BilibiliLoginCrawler | BilibiliLoginCrawler init
+2025-06-29 14:22:25 | INFO | MusicRankCrawler | 开始获取全部音乐排行榜https://api.bilibili.com/x/copyright-music-publicity/toplist/all_period
+2025-06-29 14:22:25 | INFO | MusicRankCrawler | 开始获取音乐排行榜详情https://api.bilibili.com/x/copyright-music-publicity/toplist/detail
+2025-06-29 14:22:25 | INFO | MusicRankCrawler | 开始获取音乐排行榜音乐列表https://api.bilibili.com/x/copyright-music-publicity/toplist/music_list
+2025-06-29 14:37:20 | INFO | BilibiliLoginCrawler | BilibiliLoginCrawler init
+2025-06-29 14:37:44 | INFO | BilibiliLoginCrawler | BilibiliLoginCrawler init
+2025-06-29 14:37:44 | ERROR | request_mine | [尝试1/3] Error fetching video info: Timeout value connect was 10, but it must be an int, float or None.
+2025-06-29 14:38:27 | INFO | BilibiliLoginCrawler | BilibiliLoginCrawler init
+2025-06-29 14:38:27 | ERROR | request_mine | [尝试1/3] Error fetching video info: Timeout value connect was 10, but it must be an int, float or None.
+2025-06-29 14:38:30 | ERROR | request_mine | [尝试2/3] Error fetching video info: Timeout value connect was 10, but it must be an int, float or None.
+2025-06-29 14:38:32 | ERROR | request_mine | [尝试3/3] Error fetching video info: Timeout value connect was 10, but it must be an int, float or None.
+2025-06-29 14:38:32 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音乐榜单-热榜-20250629_143832_585801.json
+2025-06-29 14:38:35 | INFO | MusicRankCrawler | 匹配到的文件: ['音乐榜单-热榜-20250629_143832_585801.json']
+2025-06-29 14:38:35 | INFO | MusicRankCrawler | 最新的原始数据文件: 音乐榜单-热榜-20250629_143832_585801.json
+2025-06-29 14:45:43 | INFO | BilibiliLoginCrawler | BilibiliLoginCrawler init
+2025-06-29 14:45:43 | INFO | load_cookies | Loading cookies...
+2025-06-29 14:45:43 | INFO | load_cookies | cookies.json exists
+2025-06-29 14:48:54 | INFO | BilibiliLoginCrawler | BilibiliLoginCrawler init
+2025-06-29 14:48:54 | INFO | load_cookies | Loading cookies...
+2025-06-29 14:48:54 | INFO | load_cookies | cookies.json exists
+2025-06-29 14:48:54 | ERROR | request_mine | [尝试1/3] Error fetching video info: Timeout value connect was 10, but it must be an int, float or None.
+2025-06-29 14:48:56 | ERROR | request_mine | [尝试2/3] Error fetching video info: Timeout value connect was 10, but it must be an int, float or None.
+2025-06-29 14:48:57 | ERROR | request_mine | [尝试3/3] Error fetching video info: Timeout value connect was 10, but it must be an int, float or None.
+2025-06-29 14:48:57 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音乐榜单-热榜-20250629_144857_715745.json
+2025-06-29 14:49:00 | INFO | MusicRankCrawler | 匹配到的文件: ['音乐榜单-热榜-20250629_144857_715745.json']
+2025-06-29 14:49:00 | INFO | MusicRankCrawler | 最新的原始数据文件: 音乐榜单-热榜-20250629_144857_715745.json
+2025-06-29 14:49:47 | INFO | BilibiliLoginCrawler | BilibiliLoginCrawler init
+2025-06-29 14:49:47 | INFO | load_cookies | Loading cookies...
+2025-06-29 14:49:47 | INFO | load_cookies | cookies.json exists
+2025-06-29 14:49:47 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音乐榜单-热榜-20250629_144947_689748.json
+2025-06-29 14:49:50 | INFO | MusicRankCrawler | 匹配到的文件: ['音乐榜单-热榜-20250629_144857_715745.json', '音乐榜单-热榜-20250629_144947_689748.json']
+2025-06-29 14:49:50 | INFO | MusicRankCrawler | 最新的原始数据文件: 音乐榜单-热榜-20250629_144947_689748.json
+2025-06-29 14:49:50 | INFO | MusicRankCrawler | 年度:2022
+2025-06-29 14:49:51 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第29期-2022年度-20250629_144951_006773.json
+2025-06-29 14:49:51 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第28期-2022年度-20250629_144951_311670.json
+2025-06-29 14:49:51 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第27期-2022年度-20250629_144951_661298.json
+2025-06-29 14:49:51 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第26期-2022年度-20250629_144951_958386.json
+2025-06-29 14:49:52 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第25期-2022年度-20250629_144952_243312.json
+2025-06-29 14:49:52 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第24期-2022年度-20250629_144952_533884.json
+2025-06-29 14:49:52 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第23期-2022年度-20250629_144952_865572.json
+2025-06-29 14:49:53 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第22期-2022年度-20250629_144953_164906.json
+2025-06-29 14:49:53 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第21期-2022年度-20250629_144953_479910.json
+2025-06-29 14:49:53 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第20期-2022年度-20250629_144953_771497.json
+2025-06-29 14:49:54 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第19期-2022年度-20250629_144954_086791.json
+2025-06-29 14:49:54 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第18期-2022年度-20250629_144954_376310.json
+2025-06-29 14:49:54 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第17期-2022年度-20250629_144954_678194.json
+2025-06-29 14:49:54 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第16期-2022年度-20250629_144954_975620.json
+2025-06-29 14:49:55 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第15期-2022年度-20250629_144955_279114.json
+2025-06-29 14:49:55 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第14期-2022年度-20250629_144955_594331.json
+2025-06-29 14:49:55 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第13期-2022年度-20250629_144955_947557.json
+2025-06-29 14:49:56 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第12期-2022年度-20250629_144956_264322.json
+2025-06-29 14:49:56 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第11期-2022年度-20250629_144956_564816.json
+2025-06-29 14:49:56 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第10期-2022年度-20250629_144956_856970.json
+2025-06-29 14:49:57 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第9期-2022年度-20250629_144957_155040.json
+2025-06-29 14:49:57 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第8期-2022年度-20250629_144957_437441.json
+2025-06-29 14:49:57 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第7期-2022年度-20250629_144957_767916.json
+2025-06-29 14:49:58 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第6期-2022年度-20250629_144958_069823.json
+2025-06-29 14:49:58 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第5期-2022年度-20250629_144958_368929.json
+2025-06-29 14:49:58 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第4期-2022年度-20250629_144958_658418.json
+2025-06-29 14:49:58 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第3期-2022年度-20250629_144958_952668.json
+2025-06-29 14:49:59 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第2期-2022年度-20250629_144959_319194.json
+2025-06-29 14:49:59 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第1期-2022年度-20250629_144959_611168.json
+2025-06-29 14:49:59 | INFO | MusicRankCrawler | 年度:2023
+2025-06-29 14:49:59 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第81期-2023年度-20250629_144959_917378.json
+2025-06-29 14:50:00 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第80期-2023年度-20250629_145000_266823.json
+2025-06-29 14:50:00 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第79期-2023年度-20250629_145000_549123.json
+2025-06-29 14:50:00 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第78期-2023年度-20250629_145000_860480.json
+2025-06-29 14:50:01 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第77期-2023年度-20250629_145001_149635.json
+2025-06-29 14:50:01 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第76期-2023年度-20250629_145001_450890.json
+2025-06-29 14:50:01 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第75期-2023年度-20250629_145001_762671.json
+2025-06-29 14:50:02 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第74期-2023年度-20250629_145002_046907.json
+2025-06-29 14:50:02 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第73期-2023年度-20250629_145002_376765.json
+2025-06-29 14:50:02 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第72期-2023年度-20250629_145002_691227.json
+2025-06-29 14:50:03 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第71期-2023年度-20250629_145003_018922.json
+2025-06-29 14:50:03 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第70期-2023年度-20250629_145003_365810.json
+2025-06-29 14:50:03 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第69期-2023年度-20250629_145003_683491.json
+2025-06-29 14:50:03 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第68期-2023年度-20250629_145003_989319.json
+2025-06-29 14:50:04 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第67期-2023年度-20250629_145004_297473.json
+2025-06-29 14:50:04 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第66期-2023年度-20250629_145004_592815.json
+2025-06-29 14:50:04 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第65期-2023年度-20250629_145004_900710.json
+2025-06-29 14:50:05 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第64期-2023年度-20250629_145005_222596.json
+2025-06-29 14:50:05 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第63期-2023年度-20250629_145005_505468.json
+2025-06-29 14:50:05 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第62期-2023年度-20250629_145005_825785.json
+2025-06-29 14:50:06 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第61期-2023年度-20250629_145006_110231.json
+2025-06-29 14:50:06 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第60期-2023年度-20250629_145006_394730.json
+2025-06-29 14:50:06 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第59期-2023年度-20250629_145006_675887.json
+2025-06-29 14:50:06 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第58期-2023年度-20250629_145006_987974.json
+2025-06-29 14:50:07 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第57期-2023年度-20250629_145007_283082.json
+2025-06-29 14:50:07 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第56期-2023年度-20250629_145007_599275.json
+2025-06-29 14:50:07 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第55期-2023年度-20250629_145007_886810.json
+2025-06-29 14:50:08 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第54期-2023年度-20250629_145008_174813.json
+2025-06-29 14:50:08 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第53期-2023年度-20250629_145008_512431.json
+2025-06-29 14:50:08 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第52期-2023年度-20250629_145008_795550.json
+2025-06-29 14:50:09 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第51期-2023年度-20250629_145009_102392.json
+2025-06-29 14:50:09 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第50期-2023年度-20250629_145009_401462.json
+2025-06-29 14:50:09 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第49期-2023年度-20250629_145009_742290.json
+2025-06-29 14:50:10 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第48期-2023年度-20250629_145010_078399.json
+2025-06-29 14:50:10 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第47期-2023年度-20250629_145010_370718.json
+2025-06-29 14:50:10 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第46期-2023年度-20250629_145010_690096.json
+2025-06-29 14:50:11 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第45期-2023年度-20250629_145011_006327.json
+2025-06-29 14:50:11 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第44期-2023年度-20250629_145011_326484.json
+2025-06-29 14:50:11 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第43期-2023年度-20250629_145011_611888.json
+2025-06-29 14:50:12 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第42期-2023年度-20250629_145012_041324.json
+2025-06-29 14:50:12 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第41期-2023年度-20250629_145012_453097.json
+2025-06-29 14:50:12 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第40期-2023年度-20250629_145012_722989.json
+2025-06-29 14:50:13 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第39期-2023年度-20250629_145013_039835.json
+2025-06-29 14:50:13 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第38期-2023年度-20250629_145013_362112.json
+2025-06-29 14:50:13 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第37期-2023年度-20250629_145013_680155.json
+2025-06-29 14:50:13 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第36期-2023年度-20250629_145013_973550.json
+2025-06-29 14:50:14 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第35期-2023年度-20250629_145014_266482.json
+2025-06-29 14:50:14 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第34期-2023年度-20250629_145014_577112.json
+2025-06-29 14:50:14 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第33期-2023年度-20250629_145014_867858.json
+2025-06-29 14:50:15 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第32期-2023年度-20250629_145015_199057.json
+2025-06-29 14:50:15 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第31期-2023年度-20250629_145015_487726.json
+2025-06-29 14:50:15 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第30期-2023年度-20250629_145015_763979.json
+2025-06-29 14:50:15 | INFO | MusicRankCrawler | 年度:2024
+2025-06-29 14:50:16 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第133期-2024年度-20250629_145016_070546.json
+2025-06-29 14:50:16 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第132期-2024年度-20250629_145016_351492.json
+2025-06-29 14:50:16 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第131期-2024年度-20250629_145016_641713.json
+2025-06-29 14:50:16 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第130期-2024年度-20250629_145016_933152.json
+2025-06-29 14:50:17 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第129期-2024年度-20250629_145017_244138.json
+2025-06-29 14:50:17 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第128期-2024年度-20250629_145017_551105.json
+2025-06-29 14:50:17 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第127期-2024年度-20250629_145017_911149.json
+2025-06-29 14:50:18 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第126期-2024年度-20250629_145018_180287.json
+2025-06-29 14:50:18 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第125期-2024年度-20250629_145018_510032.json
+2025-06-29 14:50:18 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第124期-2024年度-20250629_145018_807850.json
+2025-06-29 14:50:19 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第123期-2024年度-20250629_145019_115496.json
+2025-06-29 14:50:19 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第122期-2024年度-20250629_145019_418205.json
+2025-06-29 14:50:19 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第121期-2024年度-20250629_145019_694448.json
+2025-06-29 14:50:20 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第120期-2024年度-20250629_145020_003004.json
+2025-06-29 14:50:20 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第119期-2024年度-20250629_145020_309349.json
+2025-06-29 14:50:20 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第118期-2024年度-20250629_145020_592047.json
+2025-06-29 14:50:20 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第117期-2024年度-20250629_145020_877401.json
+2025-06-29 14:50:21 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第116期-2024年度-20250629_145021_185987.json
+2025-06-29 14:50:21 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第115期-2024年度-20250629_145021_459883.json
+2025-06-29 14:50:21 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第114期-2024年度-20250629_145021_768827.json
+2025-06-29 14:50:22 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第113期-2024年度-20250629_145022_057716.json
+2025-06-29 14:50:22 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第112期-2024年度-20250629_145022_373157.json
+2025-06-29 14:50:22 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第111期-2024年度-20250629_145022_703623.json
+2025-06-29 14:50:23 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第110期-2024年度-20250629_145023_000216.json
+2025-06-29 14:50:23 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第109期-2024年度-20250629_145023_282060.json
+2025-06-29 14:50:23 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第108期-2024年度-20250629_145023_561488.json
+2025-06-29 14:50:23 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第107期-2024年度-20250629_145023_896684.json
+2025-06-29 14:50:24 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第106期-2024年度-20250629_145024_237794.json
+2025-06-29 14:50:24 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第105期-2024年度-20250629_145024_541834.json
+2025-06-29 14:50:24 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第104期-2024年度-20250629_145024_837277.json
+2025-06-29 14:50:25 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第103期-2024年度-20250629_145025_168025.json
+2025-06-29 14:50:25 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第102期-2024年度-20250629_145025_480031.json
+2025-06-29 14:50:25 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第101期-2024年度-20250629_145025_833536.json
+2025-06-29 14:50:26 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第100期-2024年度-20250629_145026_145455.json
+2025-06-29 14:50:26 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第99期-2024年度-20250629_145026_447202.json
+2025-06-29 14:50:26 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第98期-2024年度-20250629_145026_739190.json
+2025-06-29 14:50:27 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第97期-2024年度-20250629_145027_039288.json
+2025-06-29 14:50:27 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第96期-2024年度-20250629_145027_347277.json
+2025-06-29 14:50:27 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第95期-2024年度-20250629_145027_665248.json
+2025-06-29 14:50:27 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第94期-2024年度-20250629_145027_935771.json
+2025-06-29 14:50:28 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第93期-2024年度-20250629_145028_248001.json
+2025-06-29 14:50:28 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第92期-2024年度-20250629_145028_551742.json
+2025-06-29 14:50:28 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第91期-2024年度-20250629_145028_843785.json
+2025-06-29 14:50:29 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第90期-2024年度-20250629_145029_191686.json
+2025-06-29 14:50:29 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第89期-2024年度-20250629_145029_516844.json
+2025-06-29 14:50:29 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第88期-2024年度-20250629_145029_791015.json
+2025-06-29 14:50:30 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第87期-2024年度-20250629_145030_130218.json
+2025-06-29 14:50:30 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第86期-2024年度-20250629_145030_403589.json
+2025-06-29 14:50:30 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第85期-2024年度-20250629_145030_693367.json
+2025-06-29 14:50:31 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第84期-2024年度-20250629_145031_019868.json
+2025-06-29 14:50:31 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第83期-2024年度-20250629_145031_320687.json
+2025-06-29 14:50:31 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第82期-2024年度-20250629_145031_641353.json
+2025-06-29 14:50:31 | INFO | MusicRankCrawler | 年度:2025
+2025-06-29 14:50:31 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第159期-2025年度-20250629_145031_897890.json
+2025-06-29 14:50:32 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第158期-2025年度-20250629_145032_204476.json
+2025-06-29 14:50:32 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第157期-2025年度-20250629_145032_506988.json
+2025-06-29 14:50:32 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第156期-2025年度-20250629_145032_816016.json
+2025-06-29 14:50:33 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第155期-2025年度-20250629_145033_143567.json
+2025-06-29 14:50:33 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第154期-2025年度-20250629_145033_441282.json
+2025-06-29 14:50:33 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第153期-2025年度-20250629_145033_736212.json
+2025-06-29 14:50:34 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第152期-2025年度-20250629_145034_107990.json
+2025-06-29 14:50:34 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第151期-2025年度-20250629_145034_415814.json
+2025-06-29 14:50:34 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第150期-2025年度-20250629_145034_713360.json
+2025-06-29 14:50:34 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第149期-2025年度-20250629_145034_974837.json
+2025-06-29 14:50:35 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第148期-2025年度-20250629_145035_285894.json
+2025-06-29 14:50:35 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第147期-2025年度-20250629_145035_604047.json
+2025-06-29 14:50:35 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第146期-2025年度-20250629_145035_887741.json
+2025-06-29 14:50:36 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第145期-2025年度-20250629_145036_172612.json
+2025-06-29 14:50:36 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第144期-2025年度-20250629_145036_553090.json
+2025-06-29 14:50:36 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第143期-2025年度-20250629_145036_887123.json
+2025-06-29 14:50:37 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第142期-2025年度-20250629_145037_206312.json
+2025-06-29 14:50:37 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第141期-2025年度-20250629_145037_501161.json
+2025-06-29 14:50:37 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第140期-2025年度-20250629_145037_827522.json
+2025-06-29 14:50:38 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第139期-2025年度-20250629_145038_133436.json
+2025-06-29 14:50:38 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第138期-2025年度-20250629_145038_462328.json
+2025-06-29 14:50:38 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第137期-2025年度-20250629_145038_761744.json
+2025-06-29 14:50:39 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第136期-2025年度-20250629_145039_055280.json
+2025-06-29 14:50:39 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第135期-2025年度-20250629_145039_419065.json
+2025-06-29 14:50:39 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\src\data\raw\音频榜单单期信息-热榜-第134期-2025年度-20250629_145039_742869.json
+2025-06-29 14:50:48 | INFO | BilibiliLoginCrawler | BilibiliLoginCrawler init
+2025-06-29 14:50:48 | INFO | load_cookies | Loading cookies...
+2025-06-29 14:50:48 | INFO | load_cookies | cookies.json exists
+2025-06-29 14:50:48 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音乐榜单-热榜-20250629_145048_874341.json
+2025-06-29 14:52:26 | INFO | BilibiliLoginCrawler | BilibiliLoginCrawler init
+2025-06-29 14:52:26 | INFO | load_cookies | Loading cookies...
+2025-06-29 14:52:26 | INFO | load_cookies | cookies.json exists
+2025-06-29 14:52:26 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音乐榜单-热榜-20250629_145226_725551.json
+2025-06-29 14:52:52 | INFO | BilibiliLoginCrawler | BilibiliLoginCrawler init
+2025-06-29 14:52:52 | INFO | load_cookies | Loading cookies...
+2025-06-29 14:52:52 | INFO | load_cookies | cookies.json exists
+2025-06-29 14:52:53 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音乐榜单-热榜-20250629_145253_123348.json
+2025-06-29 14:52:56 | INFO | MusicRankCrawler | 匹配到的文件: ['音乐榜单-热榜-20250629_145048_874341.json', '音乐榜单-热榜-20250629_145226_725551.json', '音乐榜单-热榜-20250629_145253_123348.json']
+2025-06-29 14:52:56 | INFO | MusicRankCrawler | 最新的原始数据文件: 音乐榜单-热榜-20250629_145253_123348.json
+2025-06-29 14:52:56 | INFO | MusicRankCrawler | 年度:2022
+2025-06-29 14:52:56 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第29期-2022年度-20250629_145256_463565.json
+2025-06-29 14:52:56 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第28期-2022年度-20250629_145256_740479.json
+2025-06-29 14:52:57 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第27期-2022年度-20250629_145257_036375.json
+2025-06-29 14:52:57 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第26期-2022年度-20250629_145257_324277.json
+2025-06-29 14:52:57 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第25期-2022年度-20250629_145257_619014.json
+2025-06-29 14:52:57 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第24期-2022年度-20250629_145257_958995.json
+2025-06-29 14:52:58 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第23期-2022年度-20250629_145258_270936.json
+2025-06-29 14:52:58 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第22期-2022年度-20250629_145258_558857.json
+2025-06-29 14:52:58 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第21期-2022年度-20250629_145258_872352.json
+2025-06-29 14:52:59 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第20期-2022年度-20250629_145259_212190.json
+2025-06-29 14:52:59 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第19期-2022年度-20250629_145259_507916.json
+2025-06-29 14:52:59 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第18期-2022年度-20250629_145259_832756.json
+2025-06-29 14:53:00 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第17期-2022年度-20250629_145300_244077.json
+2025-06-29 14:53:00 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第16期-2022年度-20250629_145300_558620.json
+2025-06-29 14:53:00 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第15期-2022年度-20250629_145300_877061.json
+2025-06-29 14:53:01 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第14期-2022年度-20250629_145301_246564.json
+2025-06-29 14:53:01 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第13期-2022年度-20250629_145301_570120.json
+2025-06-29 14:53:01 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第12期-2022年度-20250629_145301_880657.json
+2025-06-29 14:53:02 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第11期-2022年度-20250629_145302_179401.json
+2025-06-29 14:53:02 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第10期-2022年度-20250629_145302_514606.json
+2025-06-29 14:53:02 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第9期-2022年度-20250629_145302_825854.json
+2025-06-29 14:53:03 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第8期-2022年度-20250629_145303_129900.json
+2025-06-29 14:53:03 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第7期-2022年度-20250629_145303_463135.json
+2025-06-29 14:53:03 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第6期-2022年度-20250629_145303_785362.json
+2025-06-29 14:53:04 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第5期-2022年度-20250629_145304_132629.json
+2025-06-29 14:53:04 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第4期-2022年度-20250629_145304_453769.json
+2025-06-29 14:53:04 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第3期-2022年度-20250629_145304_783794.json
+2025-06-29 14:53:05 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第2期-2022年度-20250629_145305_064551.json
+2025-06-29 14:53:05 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第1期-2022年度-20250629_145305_424244.json
+2025-06-29 14:53:05 | INFO | MusicRankCrawler | 年度:2023
+2025-06-29 14:53:05 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第81期-2023年度-20250629_145305_733609.json
+2025-06-29 14:53:06 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第80期-2023年度-20250629_145306_033396.json
+2025-06-29 14:53:06 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第79期-2023年度-20250629_145306_329133.json
+2025-06-29 14:53:06 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第78期-2023年度-20250629_145306_667858.json
+2025-06-29 14:53:06 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第77期-2023年度-20250629_145306_973092.json
+2025-06-29 14:53:07 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第76期-2023年度-20250629_145307_278518.json
+2025-06-29 14:53:07 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第75期-2023年度-20250629_145307_578367.json
+2025-06-29 14:53:07 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第74期-2023年度-20250629_145307_862004.json
+2025-06-29 14:53:08 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第73期-2023年度-20250629_145308_183768.json
+2025-06-29 14:53:08 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第72期-2023年度-20250629_145308_461780.json
+2025-06-29 14:53:08 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第71期-2023年度-20250629_145308_772934.json
+2025-06-29 14:53:09 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第70期-2023年度-20250629_145309_045424.json
+2025-06-29 14:53:09 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第69期-2023年度-20250629_145309_329338.json
+2025-06-29 14:53:09 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第68期-2023年度-20250629_145309_605787.json
+2025-06-29 14:53:09 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第67期-2023年度-20250629_145309_934445.json
+2025-06-29 14:53:10 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第66期-2023年度-20250629_145310_218898.json
+2025-06-29 14:53:10 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第65期-2023年度-20250629_145310_544524.json
+2025-06-29 14:53:10 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第64期-2023年度-20250629_145310_859413.json
+2025-06-29 14:53:11 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第63期-2023年度-20250629_145311_177781.json
+2025-06-29 14:53:11 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第62期-2023年度-20250629_145311_473686.json
+2025-06-29 14:53:11 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第61期-2023年度-20250629_145311_763075.json
+2025-06-29 14:53:12 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第60期-2023年度-20250629_145312_116943.json
+2025-06-29 14:53:12 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第59期-2023年度-20250629_145312_457720.json
+2025-06-29 14:53:12 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第58期-2023年度-20250629_145312_736935.json
+2025-06-29 14:53:13 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第57期-2023年度-20250629_145313_019548.json
+2025-06-29 14:53:13 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第56期-2023年度-20250629_145313_364236.json
+2025-06-29 14:53:13 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第55期-2023年度-20250629_145313_665935.json
+2025-06-29 14:53:14 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第54期-2023年度-20250629_145314_006223.json
+2025-06-29 14:53:14 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第53期-2023年度-20250629_145314_301931.json
+2025-06-29 14:53:14 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第52期-2023年度-20250629_145314_647435.json
+2025-06-29 14:53:14 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第51期-2023年度-20250629_145314_959922.json
+2025-06-29 14:53:15 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第50期-2023年度-20250629_145315_278103.json
+2025-06-29 14:53:15 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第49期-2023年度-20250629_145315_566441.json
+2025-06-29 14:53:15 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第48期-2023年度-20250629_145315_854299.json
+2025-06-29 14:53:16 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第47期-2023年度-20250629_145316_124097.json
+2025-06-29 14:53:16 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第46期-2023年度-20250629_145316_448759.json
+2025-06-29 14:53:16 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第45期-2023年度-20250629_145316_777562.json
+2025-06-29 14:53:17 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第44期-2023年度-20250629_145317_081921.json
+2025-06-29 14:53:17 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第43期-2023年度-20250629_145317_403509.json
+2025-06-29 14:53:17 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第42期-2023年度-20250629_145317_760595.json
+2025-06-29 14:53:18 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第41期-2023年度-20250629_145318_032002.json
+2025-06-29 14:53:18 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第40期-2023年度-20250629_145318_314550.json
+2025-06-29 14:53:18 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第39期-2023年度-20250629_145318_618902.json
+2025-06-29 14:53:18 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第38期-2023年度-20250629_145318_906630.json
+2025-06-29 14:53:19 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第37期-2023年度-20250629_145319_213164.json
+2025-06-29 14:53:19 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第36期-2023年度-20250629_145319_526312.json
+2025-06-29 14:53:19 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第35期-2023年度-20250629_145319_823894.json
+2025-06-29 14:53:20 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第34期-2023年度-20250629_145320_132291.json
+2025-06-29 14:53:20 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第33期-2023年度-20250629_145320_439334.json
+2025-06-29 14:53:20 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第32期-2023年度-20250629_145320_720393.json
+2025-06-29 14:53:21 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第31期-2023年度-20250629_145321_004401.json
+2025-06-29 14:53:21 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第30期-2023年度-20250629_145321_308487.json
+2025-06-29 14:53:21 | INFO | MusicRankCrawler | 年度:2024
+2025-06-29 14:53:21 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第133期-2024年度-20250629_145321_664505.json
+2025-06-29 14:53:21 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第132期-2024年度-20250629_145321_959099.json
+2025-06-29 14:53:22 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第131期-2024年度-20250629_145322_288776.json
+2025-06-29 14:53:22 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第130期-2024年度-20250629_145322_580126.json
+2025-06-29 14:53:22 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第129期-2024年度-20250629_145322_886386.json
+2025-06-29 14:53:23 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第128期-2024年度-20250629_145323_180164.json
+2025-06-29 14:53:23 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第127期-2024年度-20250629_145323_492602.json
+2025-06-29 14:53:23 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第126期-2024年度-20250629_145323_796861.json
+2025-06-29 14:53:24 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第125期-2024年度-20250629_145324_121977.json
+2025-06-29 14:53:24 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第124期-2024年度-20250629_145324_444033.json
+2025-06-29 14:53:24 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第123期-2024年度-20250629_145324_725901.json
+2025-06-29 14:53:25 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第122期-2024年度-20250629_145325_040071.json
+2025-06-29 14:53:25 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第121期-2024年度-20250629_145325_348213.json
+2025-06-29 14:53:25 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第120期-2024年度-20250629_145325_659548.json
+2025-06-29 14:53:25 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第119期-2024年度-20250629_145325_968248.json
+2025-06-29 14:53:26 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第118期-2024年度-20250629_145326_268627.json
+2025-06-29 14:53:26 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第117期-2024年度-20250629_145326_563708.json
+2025-06-29 14:53:26 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第116期-2024年度-20250629_145326_909668.json
+2025-06-29 14:53:27 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第115期-2024年度-20250629_145327_216758.json
+2025-06-29 14:53:27 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第114期-2024年度-20250629_145327_531683.json
+2025-06-29 14:53:27 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第113期-2024年度-20250629_145327_823939.json
+2025-06-29 14:53:28 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第112期-2024年度-20250629_145328_147171.json
+2025-06-29 14:53:28 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第111期-2024年度-20250629_145328_474010.json
+2025-06-29 14:53:28 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第110期-2024年度-20250629_145328_792148.json
+2025-06-29 14:53:29 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第109期-2024年度-20250629_145329_122304.json
+2025-06-29 14:53:29 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第108期-2024年度-20250629_145329_438194.json
+2025-06-29 14:53:29 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第107期-2024年度-20250629_145329_788463.json
+2025-06-29 14:53:30 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第106期-2024年度-20250629_145330_100196.json
+2025-06-29 14:53:30 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第105期-2024年度-20250629_145330_412111.json
+2025-06-29 14:53:30 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第104期-2024年度-20250629_145330_734116.json
+2025-06-29 14:53:31 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第103期-2024年度-20250629_145331_053683.json
+2025-06-29 14:53:31 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第102期-2024年度-20250629_145331_349381.json
+2025-06-29 14:53:31 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第101期-2024年度-20250629_145331_662749.json
+2025-06-29 14:53:31 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第100期-2024年度-20250629_145331_947242.json
+2025-06-29 14:53:32 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第99期-2024年度-20250629_145332_274396.json
+2025-06-29 14:53:32 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第98期-2024年度-20250629_145332_620839.json
+2025-06-29 14:53:32 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第97期-2024年度-20250629_145332_914681.json
+2025-06-29 14:53:33 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第96期-2024年度-20250629_145333_204417.json
+2025-06-29 14:53:33 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第95期-2024年度-20250629_145333_503377.json
+2025-06-29 14:53:33 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第94期-2024年度-20250629_145333_820148.json
+2025-06-29 14:53:34 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第93期-2024年度-20250629_145334_109904.json
+2025-06-29 14:53:34 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第92期-2024年度-20250629_145334_420430.json
+2025-06-29 14:53:34 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第91期-2024年度-20250629_145334_776147.json
+2025-06-29 14:53:35 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第90期-2024年度-20250629_145335_066290.json
+2025-06-29 14:53:35 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第89期-2024年度-20250629_145335_388241.json
+2025-06-29 14:53:35 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第88期-2024年度-20250629_145335_683273.json
+2025-06-29 14:53:35 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第87期-2024年度-20250629_145335_972773.json
+2025-06-29 14:53:36 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第86期-2024年度-20250629_145336_270019.json
+2025-06-29 14:53:36 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第85期-2024年度-20250629_145336_565485.json
+2025-06-29 14:53:36 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第84期-2024年度-20250629_145336_880869.json
+2025-06-29 14:53:37 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第83期-2024年度-20250629_145337_181580.json
+2025-06-29 14:53:37 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第82期-2024年度-20250629_145337_486050.json
+2025-06-29 14:53:37 | INFO | MusicRankCrawler | 年度:2025
+2025-06-29 14:53:37 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第159期-2025年度-20250629_145337_747236.json
+2025-06-29 14:53:38 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第158期-2025年度-20250629_145338_176235.json
+2025-06-29 14:53:38 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第157期-2025年度-20250629_145338_466968.json
+2025-06-29 14:53:38 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第156期-2025年度-20250629_145338_734725.json
+2025-06-29 14:53:39 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第155期-2025年度-20250629_145339_039711.json
+2025-06-29 14:53:39 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第154期-2025年度-20250629_145339_357408.json
+2025-06-29 14:53:39 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第153期-2025年度-20250629_145339_666623.json
+2025-06-29 14:53:39 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第152期-2025年度-20250629_145339_951078.json
+2025-06-29 14:53:40 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第151期-2025年度-20250629_145340_275032.json
+2025-06-29 14:53:40 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第150期-2025年度-20250629_145340_597119.json
+2025-06-29 14:53:40 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第149期-2025年度-20250629_145340_892025.json
+2025-06-29 14:53:41 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第148期-2025年度-20250629_145341_193033.json
+2025-06-29 14:53:41 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第147期-2025年度-20250629_145341_488246.json
+2025-06-29 14:53:41 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第146期-2025年度-20250629_145341_808059.json
+2025-06-29 14:53:42 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第145期-2025年度-20250629_145342_117887.json
+2025-06-29 14:53:42 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第144期-2025年度-20250629_145342_419748.json
+2025-06-29 14:53:42 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第143期-2025年度-20250629_145342_707734.json
+2025-06-29 14:53:43 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第142期-2025年度-20250629_145343_005271.json
+2025-06-29 14:53:43 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第141期-2025年度-20250629_145343_330172.json
+2025-06-29 14:53:43 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第140期-2025年度-20250629_145343_650313.json
+2025-06-29 14:53:43 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第139期-2025年度-20250629_145343_977389.json
+2025-06-29 14:53:44 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第138期-2025年度-20250629_145344_282175.json
+2025-06-29 14:53:44 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第137期-2025年度-20250629_145344_577431.json
+2025-06-29 14:53:44 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第136期-2025年度-20250629_145344_876933.json
+2025-06-29 14:53:45 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第135期-2025年度-20250629_145345_172776.json
+2025-06-29 14:53:45 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第134期-2025年度-20250629_145345_461784.json
+2025-06-29 14:54:14 | INFO | BilibiliLoginCrawler | BilibiliLoginCrawler init
+2025-06-29 14:54:14 | INFO | load_cookies | Loading cookies...
+2025-06-29 14:54:14 | INFO | load_cookies | cookies.json does not exist
+2025-06-29 14:54:14 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音乐榜单-热榜-20250629_145414_356376.json
+2025-06-29 14:54:17 | INFO | MusicRankCrawler | 匹配到的文件: ['音乐榜单-热榜-20250629_145048_874341.json', '音乐榜单-热榜-20250629_145226_725551.json', '音乐榜单-热榜-20250629_145253_123348.json', '音乐榜单-热榜-20250629_145414_356376.json']
+2025-06-29 14:54:17 | INFO | MusicRankCrawler | 最新的原始数据文件: 音乐榜单-热榜-20250629_145414_356376.json
+2025-06-29 14:54:17 | INFO | MusicRankCrawler | 年度:2022
+2025-06-29 14:54:17 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第29期-2022年度-20250629_145417_775151.json
+2025-06-29 14:54:18 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第28期-2022年度-20250629_145418_173525.json
+2025-06-29 14:54:18 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第27期-2022年度-20250629_145418_542470.json
+2025-06-29 14:54:18 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第26期-2022年度-20250629_145418_852238.json
+2025-06-29 14:54:19 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第25期-2022年度-20250629_145419_141295.json
+2025-06-29 14:54:19 | INFO | write_file_to_raw | 当前存储的文件为：C:\Users\29145\Desktop\WorkSpace\6.25大数据采集与分析课设\bilibili-crawler\data\raw\音频榜单单期信息-热榜-第24期-2022年度-20250629_145419_440498.json
