@@ -1,9 +1,5 @@
-pandas
-numpy
-requests
-webdriver-manager
-selenium
-rich
-matplotlib
-seaborn
-jupyter
+requests>=2.25.0
+pandas>=1.2.0
+numpy>=1.20.0
+matplotlib>=3.3.0
+seaborn>=0.11.0

@@ -5,12 +5,11 @@ TODO Cookie工具类
 """
 import os
 
-from requests.cookies import RequestsCookieJar
 from selenium import webdriver
 import json
 
 
-filepath = os.path.dirname(__file__).split("\\utils")[0] + "\\data\\cookies\\cookies.json"
+filepath = os.path.dirname(__file__).split("\\bilibili-crawler")[0] + "\\bilibili-crawler\\data\\raw\\cookies.json"
 
 
 def write_cookies():
@@ -33,15 +32,4 @@ def write_cookies():
     print('cookies保存成功！')
     driver.close()
 
-
-def get_cookies():
-    """
-    cookies获取方法
-    :return:
-    """
-    jar = RequestsCookieJar()
-    with open(filepath, "r") as fp:
-        cookies = json.load(fp)
-        for cookie in cookies:
-            jar.set(cookie['name'], cookie['value'])
-    return jar
+write_cookies()

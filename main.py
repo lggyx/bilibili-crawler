@@ -1,89 +1,80 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 """
-TODO 主程序，可以执行的操作如下：
-    1.登录
-    2.爬取往期所有音乐排行榜单数据，数据清洗，分析生成云图，数据表等，生成热点话题走向
-    3.爬取各分区视频排行榜单数据，数据清洗，分析生成云图，数据表等，生成热点话题走向
-    4.爬取单一视频数据弹幕等，数据清洗，分析生成对应的数据展示
+B站音频榜单爬虫主程序。
+
+该程序用于爬取B站音频榜单数据，并进行数据清洗和分析。
 """
-import argparse
+
+import os
 import time
+from src.utils.logger import logger
+from src.crawler.bilibili_login import bilibili_login
+from src.crawler.audio_rank_crawler import audio_rank_crawler
+from src.preprocessing.data_cleaner import data_cleaner
+from src.analysis.data_analyzer import data_analyzer
 
-import crawler.audio.rank_crawler
-from cleaner.audio.rank_cleaner import rank_cleaner
-from config.logger import get_logger
-from utils.cookie_utils import write_cookies
-
-log=get_logger("bilibili-crawler")
-
-
-def login():
-    write_cookies()
-
-def music_rank():
-    # 爬取往期所有音乐排行榜单数据，数据清洗，分析生成云图，数据表等，生成热点话题走向
-    log.info("开始爬取数据")
-    # 爬取数据、存储原始数据
-    crawler.audio.rank_crawler.rank_crawler()
-    log.info("爬取数据完成")
-    log.info("开始数据清洗")
-    rank_cleaner()
-    log.info("数据清洗完成")
-    log.info("生成数据分析报告中")
-    # 生成分析报告，文档等，生成完成跳转对应的文件夹
-    # run_audio_analysis()
-    log.info("数据分析报告已生成")
-
-
-def video_rank(area=None):
-    # 爬取各分区视频排行榜单数据，数据清洗，分析生成云图，数据表等，生成热点话题走向
-    # area: 分区参数，默认为None，表示全部分区
-    log.info("开始爬取数据")
-    # 爬取数据、存储原始数据
-    time.sleep(2)
-    log.info("爬取数据完成")
-
-    log.info("开始数据清洗")
-    # 原始数据清洗整理，变成可以使用的数据
-    time.sleep(2)
-    log.info("数据清洗完成")
-
-    log.info("生成数据分析报告中")
-    # 生成分析报告，文档等，生成完成跳转对应的文件夹
-    log.info("数据分析报告已生成")
-
-def video_danmaku():
-    # 爬取单一视频数据弹幕等，数据清洗，分析生成对应的数据展示
-    log.info("开始爬取数据")
-    # 爬取数据、存储原始数据
-    time.sleep(2)
-    log.info("爬取数据完成")
-
-    log.info("开始数据清洗")
-    # 原始数据清洗整理，变成可以使用的数据
-    time.sleep(2)
-    log.info("数据清洗完成")
-
-    log.info("生成数据分析报告中")
-    # 生成分析报告，文档等，生成完成跳转对应的文件夹
-    log.info("数据分析报告已生成")
 
 def main():
-    parser = argparse.ArgumentParser(description="Bilibili Crawler")
-    parser.add_argument('--mode', type=str, required=True, help='运行模式: login, music_rank, video_rank, video_danmaku')
-    parser.add_argument('--area', type=str, default=None, help='分区参数，仅在video_rank模式下使用，分区ID参照doc')
-    parser.add_argument('--storage', type=str, default=None, help='数据存储方式   1:静态json存储    2:mysql')
-    args = parser.parse_args()
+    """主程序入口。"""
+    try:
+        logger.info("开始运行B站音频榜单爬虫程序")
+        
+        # 检查登录状态
+        # if not bilibili_login.load_cookies():
+        #     logger.error("未找到Cookie文件，请先手动登录并保存Cookie")
+        #     return
+        #
+        # if not bilibili_login.check_login_status():
+        #     logger.error("Cookie已失效，请更新Cookie")
+        #     return
+        
+        # 爬取数据
+        logger.info("开始爬取数据")
+        ranks_data = audio_rank_crawler.crawl_all_ranks()
+        if not ranks_data:
+            logger.error("爬取数据失败")
+            return
+        logger.info("数据爬取完成")
+        
+        # 清洗数据
+        logger.info("开始清洗数据")
+        cleaned_data = data_cleaner.clean_all_data()
+        if not cleaned_data:
+            logger.error("数据清洗失败")
+            return
+        logger.info("数据清洗完成")
+        
+        # 分析数据
+        logger.info("开始分析数据")
+        analysis_results = data_analyzer.analyze_all_data()
+        if not analysis_results:
+            logger.error("数据分析失败")
+            return
+        logger.info("数据分析完成")
+        
+        logger.info("程序运行完成")
+    except Exception as e:
+        logger.error(f"程序运行出错: {str(e)}")
 
-    if args.mode == 'login':
-        login()
-    elif args.mode == 'music_rank':
-        music_rank()
-    elif args.mode == 'video_rank':
-        video_rank(area=args.area)
-    elif args.mode == 'video_danmaku':
-        video_danmaku()
-    else:
-        print(f"未知的mode: {args.mode}")
+
+def setup_directories():
+    """创建必要的目录。"""
+    directories = [
+        'data/raw',
+        'data/processed',
+        'logs'
+    ]
+    
+    for directory in directories:
+        if not os.path.exists(directory):
+            os.makedirs(directory)
+            logger.info(f"创建目录: {directory}")
+
 
 if __name__ == "__main__":
+    # 创建必要的目录
+    setup_directories()
+    
+    # 运行主程序
     main()

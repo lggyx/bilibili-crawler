@@ -1,0 +1,27 @@
+2025-06-29 10:42:14,370 - bilibili_crawler - INFO - 开始运行B站音频榜单爬虫程序
+2025-06-29 10:42:14,371 - bilibili_crawler - WARNING - Cookie文件不存在
+2025-06-29 10:42:14,371 - bilibili_crawler - ERROR - 未找到Cookie文件，请先手动登录并保存Cookie
+2025-06-29 10:49:15,545 - bilibili_crawler - INFO - 开始运行B站音频榜单爬虫程序
+2025-06-29 10:49:15,546 - bilibili_crawler - WARNING - Cookie文件不存在
+2025-06-29 10:49:15,546 - bilibili_crawler - ERROR - 未找到Cookie文件，请先手动登录并保存Cookie
+2025-06-29 10:51:48,810 - bilibili_crawler - INFO - 开始运行B站音频榜单爬虫程序
+2025-06-29 10:51:48,810 - bilibili_crawler - INFO - 成功加载Cookie
+2025-06-29 10:51:49,309 - bilibili_crawler - WARNING - 登录状态已失效
+2025-06-29 10:51:49,309 - bilibili_crawler - ERROR - Cookie已失效，请更新Cookie
+2025-06-29 10:56:19,576 - bilibili_crawler - INFO - 开始运行B站音频榜单爬虫程序
+2025-06-29 10:56:19,577 - bilibili_crawler - ERROR - 加载Cookie失败: too many values to unpack (expected 2)
+2025-06-29 10:56:19,577 - bilibili_crawler - ERROR - 未找到Cookie文件，请先手动登录并保存Cookie
+2025-06-29 10:56:56,261 - bilibili_crawler - INFO - 开始运行B站音频榜单爬虫程序
+2025-06-29 10:56:56,261 - bilibili_crawler - ERROR - 加载Cookie失败: too many values to unpack (expected 2)
+2025-06-29 10:56:56,261 - bilibili_crawler - ERROR - 未找到Cookie文件，请先手动登录并保存Cookie
+2025-06-29 10:57:44,627 - bilibili_crawler - INFO - 开始运行B站音频榜单爬虫程序
+2025-06-29 10:57:44,628 - bilibili_crawler - ERROR - 加载Cookie失败: too many values to unpack (expected 2)
+2025-06-29 10:57:44,628 - bilibili_crawler - ERROR - 未找到Cookie文件，请先手动登录并保存Cookie
+2025-06-29 10:58:39,252 - bilibili_crawler - INFO - 开始运行B站音频榜单爬虫程序
+2025-06-29 10:58:39,252 - bilibili_crawler - ERROR - 加载Cookie失败: Extra data: line 1 column 162 (char 161)
+2025-06-29 10:58:39,252 - bilibili_crawler - ERROR - 未找到Cookie文件，请先手动登录并保存Cookie
+2025-06-29 10:58:59,465 - bilibili_crawler - INFO - 开始运行B站音频榜单爬虫程序
+2025-06-29 10:58:59,465 - bilibili_crawler - INFO - 开始爬取数据
+2025-06-29 10:58:59,466 - bilibili_crawler - INFO - 开始获取所有榜单周期
+2025-06-29 10:58:59,537 - bilibili_crawler - ERROR - 获取榜单周期失败: Key: 'AllPeriodReq.ListType' Error:Field validation for 'ListType' failed on the 'required' tag
+2025-06-29 10:58:59,537 - bilibili_crawler - ERROR - 爬取数据失败
