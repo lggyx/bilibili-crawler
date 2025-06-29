@@ -1,5 +1,11 @@
-from src.utils.logger import get_log
+import os
+
 import pandas as pd
+import numpy as np
+from sklearn.feature_selection import SelectKBest, chi2
+
+from src.analyzer import data_modeling, visualization
+from src.utils.logger import get_log
 
 class MusicRankAnalyzer:
     def __init__(self):
@@ -39,12 +45,47 @@ class MusicRankAnalyzer:
         self.log.info(f"特征选择完成，保留特征: {self.numeric_columns}")
         return selected_features
 
-# 示例用法
-if __name__ == "__main__":
-    analyzer = MusicRankAnalyzer()
-    analyzer.load_data("data/preprocessed/all_music_rank.csv")
-    features = analyzer.feature_selection()
-    if features is not None:
-        print(features.head())
-    else:
-        print("特征选择失败，请检查日志信息")
+    def advanced_feature_selection(self, k=2):
+        """高级特征选择：使用卡方检验选择重要特征"""
+        if self.data is None:
+            self.log.error("数据未加载，请先调用load_data方法")
+            return None
+
+        # 检查数值型列是否存在
+        missing_columns = [col for col in self.numeric_columns if col not in self.data.columns]
+        if missing_columns:
+            self.log.warning(f"缺少以下列: {missing_columns}，无法完成特征选择")
+            return None
+
+        try:
+            # 提取数值型特征和目标列
+            X = self.data[self.numeric_columns]
+            y = self.data['target'] if 'target' in self.data.columns else np.zeros(len(self.data))
+
+            # 使用卡方检验选择特征
+            selector = SelectKBest(score_func=chi2, k=k)
+            selector.fit_transform(X, y)
+
+            selected_features = selector.get_support(indices=True)
+            selected_columns = [self.numeric_columns[i] for i in selected_features]
+
+            self.log.info(f"高级特征选择完成，保留特征: {selected_columns}")
+            return self.data[selected_columns]
+        except Exception as e:
+            self.log.error(f"高级特征选择失败: {e}")
+            return None
+
+    def run_analyzer(self):
+        analyzer = MusicRankAnalyzer()
+        analyzer.load_data(os.path.dirname(__file__).split("\\src")[0]+"\\data\\preprocessed\\all_music_rank.csv")
+        features = analyzer.feature_selection()
+        log=get_log("MusicRankAnalyzer")
+        if features is not None:
+            log.info(features.head())
+            data_modeling.main()
+            visualization.main()
+
+        else:
+            log.error("特征选择失败，请检查日志信息")
+
+musicRankAnalyzer = MusicRankAnalyzer()

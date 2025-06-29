@@ -11,7 +11,6 @@ class BilibiliLoginCrawler:
     def __init__(self):
         self.driver = None
         self.logger = get_log("BilibiliLoginCrawler")
-        self.logger.info("BilibiliLoginCrawler init")
         self.filepath = os.path.dirname(__file__).split("\\src")[0] + "\\data\\cookies\\cookies.json"
     def login(self):
         self.logger.info("BilibiliLoginCrawler login")

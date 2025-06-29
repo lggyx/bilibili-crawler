@@ -25,7 +25,7 @@ def write_file_to_raw(filename, data):
     """
 
     # 拼接文件路径
-    file_path = os.path.join(path, "raw", filename + datetime.now().strftime("%Y%m%d_%H%M%S_%f") + ".json")
+    file_path = os.path.join(path, filename + datetime.now().strftime("%Y%m%d_%H%M%S_%f") + ".json")
     file_dir = os.path.dirname(file_path)
     if not os.path.exists(file_dir):
         os.makedirs(file_dir)

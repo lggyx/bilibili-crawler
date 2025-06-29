@@ -2,4 +2,4 @@
 /logs/
 .idea/
 .git/
-**/__pycache__/
+/__pycache__/
