@@ -26,5 +26,8 @@ logging.basicConfig(
     handlers=[rich_handler, file_handler]
 )
 
+
 def get_log(name):
-    return logging.getLogger(name)
+    # 创建日志记录器
+    logger = logging.getLogger(name)
+    return logger

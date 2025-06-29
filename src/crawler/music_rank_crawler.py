@@ -51,7 +51,7 @@ class MusicRankCrawler:
         self.AUDIO_RANK_ALL_PERIOD_URL = config.get("CRAWLER", "AUDIO_RANK_ALL_PERIOD_URL")
         self.AUDIO_RANK_DETAIL_URL = config.get("CRAWLER", "AUDIO_RANK_DETAIL_URL")
         self.AUDIO_RANK_MUSIC_LIST_URL = config.get("CRAWLER", "AUDIO_RANK_MUSIC_LIST_URL")
-    def rank_crawler(self):
+    def run_crawler(self):
         write_file_to_raw("音乐榜单-热榜-", get_audio_rank_all_period(1, None))
         time.sleep(3)
         raw_data_dir = os.path.dirname(__file__).split("\\src")[0] + "\\data\\raw"  # 假设原始数据存放在raw目录下
