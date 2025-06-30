@@ -36,7 +36,7 @@
   ```bash
   pip install -r requirements.txt
   ```
-
+- EdgeDriver 下载放到driver文件夹中：https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/
 ## 使用方法
 
 ### 1. 命令行一键全流程

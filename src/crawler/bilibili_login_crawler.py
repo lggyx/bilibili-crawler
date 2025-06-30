@@ -2,6 +2,7 @@ import json
 import os
 
 from selenium import webdriver
+from selenium.webdriver.edge.service import Service as EdgeService
 
 from src.config.config import config
 from src.utils.logger import get_log
@@ -12,11 +13,13 @@ class BilibiliLoginCrawler:
         self.driver = None
         self.logger = get_log("BilibiliLoginCrawler")
         self.filepath = os.path.dirname(__file__).split("\\src")[0] + "\\data\\cookies\\cookies.json"
+        self.driver_path = os.path.join(os.path.dirname(__file__).split("\\src")[0],"driver", "msedgedriver.exe")
     def login(self):
         self.logger.info("BilibiliLoginCrawler login")
         edge_options = webdriver.EdgeOptions()
         edge_options.add_experimental_option('excludeSwitches', ['enable-logging'])
-        self.driver = webdriver.Edge(options=edge_options)
+        service = EdgeService(executable_path=self.driver_path)
+        self.driver = webdriver.Edge(service=service, options=edge_options)
         self.driver.get(config.get("CRAWLER","BILIBILI_LOGIN_URL"))
         self.driver.implicitly_wait(10)
         self.logger.warning("请手动登录Bilibili，登录成功后请按任意键继续...")

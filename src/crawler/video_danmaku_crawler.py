@@ -6,11 +6,13 @@ import json
 import os
 import re
 from selenium import webdriver
+from selenium.webdriver.edge.service import Service as EdgeService
 
 class VideoDanmakuCrawler:
     def __init__(self):
         self.danmaku_data = []
         self.log=get_log("VideoDanmakuCrawler")
+        self.driver_path = os.path.join(os.path.dirname(__file__).split("\\src")[0],"driver", "msedgedriver.exe")
         
     def get_video_info(self,aid=None,bvid=None):
         """
@@ -32,7 +34,8 @@ class VideoDanmakuCrawler:
         edge_options.add_experimental_option('excludeSwitches', ['enable-logging']) # 禁用日志
         edge_options.add_argument('--headless')  # 无头模式
         edge_options.add_argument('--disable-gpu')  # 禁用GPU加速
-        driver =webdriver.Edge(edge_options)
+        service = EdgeService(executable_path=self.driver_path)
+        driver =webdriver.Edge(service=service, options=edge_options)
         driver.get(url)
         driver.implicitly_wait(10)  # 等待页面加载
         # 等待页面加载完成后获取页面源代码
