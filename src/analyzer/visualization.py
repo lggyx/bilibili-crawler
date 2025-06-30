@@ -311,6 +311,33 @@ class DataVisualizer:
         plt.close()
         self.log.info(f"{filename} saved")
 
+    def association_rule_plot(self, rules, support_col='support', confidence_col='confidence', lift_col='lift', title="关联规则支持度-置信度分布", filename="association_rule_scatter.png"):
+        """
+        绘制关联规则的支持度-置信度散点图，气泡大小代表提升度
+        rules: 包含support/confidence/lift等列的DataFrame
+        """
+        self.log.info("绘制关联规则支持度-置信度分布散点图")
+        plt.figure(figsize=(10,7))
+        if rules is None or rules.empty:
+            plt.text(0.5, 0.5, '无有效关联规则', fontsize=18, ha='center', va='center')
+            plt.xlabel('支持度(support)')
+            plt.ylabel('置信度(confidence)')
+            plt.title(title)
+            plt.tight_layout()
+            plt.savefig(os.path.join(self.output_dir, filename))
+            plt.close()
+            self.log.info(f"{filename} saved (empty)")
+            return
+        sc = plt.scatter(rules[support_col], rules[confidence_col], s=rules[lift_col]*50, alpha=0.6, c=rules[lift_col], cmap='viridis')
+        plt.colorbar(sc, label='提升度(lift)')
+        plt.xlabel('支持度(support)')
+        plt.ylabel('置信度(confidence)')
+        plt.title(title)
+        plt.tight_layout()
+        plt.savefig(os.path.join(self.output_dir, filename))
+        plt.close()
+        self.log.info(f"{filename} saved")
+
 def main():
     df = pd.read_csv(os.path.dirname(__file__).split("\\src")[0]+"\\data\\preprocessed\\all_music_rank.csv")
     vis = DataVisualizer()
@@ -334,3 +361,46 @@ def main():
     vis.wordcloud_plot(' '.join(df['singer'].astype(str)), title="歌手词云", filename="singer_wordcloud.png")
     # 词云图：专辑
     vis.wordcloud_plot(' '.join(df['album'].astype(str)), title="专辑词云", filename="album_wordcloud.png")
+
+    # 关联规则挖掘与可视化（多策略自动尝试，最大化生成有效规则）
+    from mlxtend.preprocessing import TransactionEncoder
+    from mlxtend.frequent_patterns import apriori, association_rules
+    def try_apriori(transactions, min_support_list=[0.02, 0.01, 0.005], min_conf=0.2):
+        te = TransactionEncoder()
+        te_ary = te.fit(transactions).transform(transactions)
+        basket = pd.DataFrame(te_ary, columns=te.columns_)
+        for min_sup in min_support_list:
+            frequent_itemsets = apriori(basket, min_support=min_sup, use_colnames=True)
+            if not frequent_itemsets.empty:
+                rules = association_rules(frequent_itemsets, metric="confidence", min_threshold=min_conf)
+                rules = rules[(rules['support'] > 0) & (rules['confidence'] > 0) & (rules['lift'] > 1)]
+                if not rules.empty:
+                    return rules, min_sup
+        return None, None
+
+    # 1. 歌手+专辑联合事务
+    transactions = []
+    for _, row in df.iterrows():
+        singers = [s.strip() for s in str(row['singer']).split(',') if s.strip()]
+        albums = [a.strip() for a in str(row['album']).split(',') if a.strip()]
+        transaction = singers + albums
+        transactions.append(transaction)
+    rules, used_sup = try_apriori(transactions)
+    if rules is not None:
+        vis.association_rule_plot(rules, support_col='support', confidence_col='confidence', lift_col='lift',
+                                  title=f"歌手/专辑关联规则支持度-置信度分布(min_support={used_sup})", filename="association_rule_scatter.png")
+    else:
+        # 2. 只用歌手字段
+        transactions = [[s.strip() for s in str(row['singer']).split(',') if s.strip()] for _, row in df.iterrows()]
+        rules, used_sup = try_apriori(transactions)
+        if rules is not None:
+            vis.association_rule_plot(rules, support_col='support', confidence_col='confidence', lift_col='lift',
+                                      title=f"歌手关联规则支持度-置信度分布(min_support={used_sup})", filename="association_rule_scatter.png")
+        else:
+            # 3. 只用专辑字段
+            transactions = [[a.strip() for a in str(row['album']).split(',') if a.strip()] for _, row in df.iterrows()]
+            rules, used_sup = try_apriori(transactions)
+            if rules is not None:
+                vis.association_rule_plot(rules, support_col='support', confidence_col='confidence', lift_col='lift',
+                                          title=f"专辑关联规则支持度-置信度分布(min_support={used_sup})", filename="association_rule_scatter.png")
+
