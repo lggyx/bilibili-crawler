@@ -42,6 +42,9 @@
    ```bash
    python main.py --login --crawl --preprocess --analyze
    ```
+   ```bash
+   python main.py --crawl --preprocess --analyze
+   ```
    - 支持单步运行：`--login`、`--crawl`、`--preprocess`、`--analyze` 可任意组合
    - analyze 阶段自动生成并打开 Jupyter 分析报告，且自动运行全部代码块
 
