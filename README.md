@@ -16,17 +16,23 @@
 ```
 ├── main.py                        # 主程序入口，命令行参数控制全流程
 ├── README.md                      # 项目说明文档
+├── requirements.txt               # 依赖包列表
+├── driver/                        # 浏览器驱动（如msedgedriver.exe）
 ├── data/
-│   ├── preprocessed/              # 预处理后数据
-│   ├── preprocessing/             # 原始及中间数据
-│   ├── reporter/                  # 可视化图片与分析报告输出
-│   └── raw/                       # 原始爬取数据
+│   ├── preprocessed/              # 预处理后数据（csv等，供分析用）
+│   ├── preprocessing/             # 原始及中间数据（如原始csv、临时文件）
+│   ├── reporter/
+│   │   ├── music_rank/            # 音乐榜单分析图片与报告
+│   │   └── video_danmaku/         # 弹幕分析图片与报告
+│   └── raw/                       # 原始爬取数据（json等）
+│   └── cookies/                   # 登录cookies存储
 ├── src/
-│   ├── analyzer/                  # 分析与可视化模块（含 music_rank、video_danmaku 分析与报告）
+│   ├── analyzer/                  # 分析与可视化模块（music_rank、video_danmaku分析、Notebook报告等）
 │   ├── crawler/                   # 爬虫与登录模块
 │   ├── preprocessing/             # 数据预处理模块
-│   └── utils/                     # 工具函数
-└── logs/                          # 日志文件
+│   └── utils/                     # 工具函数、日志等
+├── logs/                          # 日志文件
+└── doc/                           # 项目文档、说明、分区说明等
 ```
 
 ## 环境依赖
