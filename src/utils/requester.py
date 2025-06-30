@@ -13,7 +13,7 @@ USER_AGENTS = [
     'Mozilla/5.0 (Linux; Android 10; SM-G975F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Mobile Safari/537.36',
 ]
 log=get_log("request_mine")
-def request_mine(url, params,cookies=None):
+def request_mine(url, params=None,cookies=None):
     """
     requests 集成类，增加反爬虫措施
     :param cookies:

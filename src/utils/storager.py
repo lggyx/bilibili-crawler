@@ -39,6 +39,29 @@ def write_file_to_raw(filename, data):
 
     return file_path
 
+def write_file_to_raw_with_html(filename, data):
+    """
+    将爬取的原始数据写入本地（支持HTML格式）
+    :param filename:
+    :param data:
+    :return:
+    """
+
+    # 拼接文件路径
+    file_path = os.path.join(path, filename + datetime.now().strftime("%Y%m%d_%H%M%S_%f") + ".html")
+    file_dir = os.path.dirname(file_path)
+    if not os.path.exists(file_dir):
+        os.makedirs(file_dir)
+    
+    # 写入文件
+    with open(file_path, 'w', encoding='utf-8') as f:
+        f.write(data)
+
+    # 记录日志
+    log = get_log("write_file_to_raw_with_html")
+    log.info(f"当前存储的文件为：{file_path}")
+
+    return file_path
 def save_to_csv(data, filename):
     """将处理后的数据保存为CSV文件"""
     # 创建目录（如果不存在）

@@ -7,7 +7,7 @@ from sklearn.metrics import silhouette_score
 from src.utils.logger import get_log
 
 
-class DataModeling:
+class MusicRankDataModeling:
     def __init__(self):
         self.log = get_log("DataModeling")
         self.data = None
@@ -50,7 +50,7 @@ class DataModeling:
 
 def main():
     """示例用法"""
-    modeler = DataModeling()
+    modeler = MusicRankDataModeling()
     modeler.load_data(os.path.dirname(__file__).split("\\src")[0]+"\\data\\preprocessed\\all_music_rank.csv")
     clustered_data = modeler.kmeans_clustering()
     if clustered_data is not None:

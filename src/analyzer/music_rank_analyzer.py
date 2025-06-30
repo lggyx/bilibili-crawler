@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 from sklearn.feature_selection import SelectKBest, chi2
 
-from src.analyzer import data_modeling, visualization
+from src.analyzer import music_rank_data_modeling, music_rank_visualization
 from src.utils.logger import get_log
 
 class MusicRankAnalyzer:
@@ -82,8 +82,8 @@ class MusicRankAnalyzer:
         log=get_log("MusicRankAnalyzer")
         if features is not None:
             log.info(features.head())
-            data_modeling.main()
-            visualization.main()
+            music_rank_data_modeling.main()
+            music_rank_visualization.main()
 
         else:
             log.error("特征选择失败，请检查日志信息")

@@ -13,7 +13,7 @@ warnings.filterwarnings('ignore')
 plt.rcParams['font.sans-serif'] = ['SimHei']  # 设置中文字体
 plt.rcParams['axes.unicode_minus'] = False     # 解决负号显示问题
 class DataVisualizer:
-    def __init__(self, output_dir=os.path.dirname(__file__).split("\\src")[0]+"\\data\\reporter\\"):
+    def __init__(self, output_dir=os.path.dirname(__file__).split("\\src")[0]+"\\data\\reporter\\music_rank\\"):
         """
         数据可视化工具类，支持多种业务相关的统计图和词云图生成。
         output_dir: 图表输出目录，默认自动定位到data/reporter/
