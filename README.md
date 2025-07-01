@@ -51,9 +51,12 @@
   ```bash
   python main.py --type music_rank --crawl --preprocess --analyze
   ```
-- 视频弹幕分析（需指定视频id，支持BVID或AID）：
+- 视频弹幕分析（使用前需要先登录，需指定视频id，支持BVID或AID）：
   ```bash
-  python main.py --type video_danmaku --id BV1AzgrzPEFV --crawl --preprocess --analyze
+  python main.py --type login
+  ```
+  ```bash
+  python main.py --type video_danmaku --id BV1koKizrEB4 --crawl --preprocess --analyze
   ```
   或
   ```bash

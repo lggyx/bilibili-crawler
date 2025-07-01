@@ -8,6 +8,7 @@ def preprocess_latest_danmaku():
     log = get_log("video_danmaku_preprocessing")
     raw_data_dir = os.path.dirname(__file__).split("\\src")[0] + "\\data\\raw"
     pre_dir = os.path.dirname(__file__).split("\\src")[0] + "\\data\\preprocessed"
+    os.makedirs(pre_dir, exist_ok=True)
     pattern = re.compile(r"^视频弹幕数据-.*\.(html|xml)$")
     matched_files = [f for f in os.listdir(raw_data_dir) if pattern.match(f)]
     if not matched_files:
