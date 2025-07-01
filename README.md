@@ -29,6 +29,7 @@
 ├── src/
 │   ├── analyzer/                  # 分析与可视化模块（music_rank、video_danmaku分析、Notebook报告等）
 │   ├── crawler/                   # 爬虫与登录模块
+|   ├── config/                    # 配置文件模块
 │   ├── preprocessing/             # 数据预处理模块
 │   └── utils/                     # 工具函数、日志等
 ├── logs/                          # 日志文件
