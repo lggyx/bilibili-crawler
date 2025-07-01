@@ -12,3 +12,4 @@ wordcloud
 jupyter
 mlxtend
 beautifulsoup4
+snownlp

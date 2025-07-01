@@ -52,7 +52,7 @@
   ```
 - 视频弹幕分析（需指定视频id，支持BVID或AID）：
   ```bash
-  python main.py --type video_danmaku --id BVxxxxxxxxx --crawl --preprocess --analyze
+  python main.py --type video_danmaku --id BV1AzgrzPEFV --crawl --preprocess --analyze
   ```
   或
   ```bash

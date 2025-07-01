@@ -17,7 +17,7 @@ def preprocess_latest_danmaku():
     file_path = os.path.join(raw_data_dir, latest_file)
     log.info(f"处理文件: {latest_file}")
     with open(file_path, 'r', encoding='utf-8') as f:
-        soup = BeautifulSoup(f, 'xml')
+        soup = BeautifulSoup(f, 'html')
         danmakus = soup.find_all('d')
         if not danmakus:
             log.warning("未解析到任何弹幕")
