@@ -35,7 +35,7 @@ def write_file_to_raw(filename, data):
 
     # 记录日志
     log = get_log("write_file_to_raw")
-    log.info(f"当前存储的文件为：{file_path}")
+    log.info(f"当前存储的文件为：{file_path.split('\\')[-1]}")
 
     return file_path
 
